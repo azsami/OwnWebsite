@@ -1,0 +1,109 @@
+body{
+    font-family: 'Oswald', ;
+   
+}
+h1{
+    font-size: 40px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: hotpink;
+    background-image: linear-gradient(indianred, pink);
+    color: white;
+    padding: 10px 20px;
+    font-weight: bol;
+}
+p{
+    font-family: 'Knewave', ;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 5%;
+    align-content: center;
+}
+.half-width img{
+    width: 100%;
+}
+
+
+section{
+    height: 800px;
+    align-content: center;
+}
+.top-part{
+    background-image:url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lw{
+    height: 500px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latestwork{
+    text-align: center;
+}
+.onethird{
+    width: 32%;
+    height: auto;
+    margin: 5px 7px;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgba(73, 165, 36, 0.746);
+}
+#allimg{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.footerpart{
+    text-align: center;
+}
+#clientname{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+#clientjob{
+    color: gray;
+    margin-top: 0px;
+    font-size: 20px;
+}
+#clientcomment{
+    color: rgb(0, 0, 0);
+}
+.contact{
+    color: rgba(230, 230, 179, 0.863);
+    background: rgba(236, 62, 198, 0.89);
+    background-image:linear-gradient(rgb(255, 0, 212), rgb(170, 13, 233));
+    border-radius: 18px;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 28px;
+}
+.cp1{
+    color: white;
+}
+.cp2{
+    color: whitesmoke;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* .foot{
+    font-size: 15px;
+    color: gray; */
+.footerpart{
+    height: 400px;
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+}
